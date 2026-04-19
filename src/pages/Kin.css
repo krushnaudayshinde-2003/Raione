@@ -1,0 +1,38 @@
+.kin-header {
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  margin-top: 100px;
+  background: linear-gradient(90deg, var(--color-text), var(--color-text-muted));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kin-subtitle {
+  text-align: center;
+  color: var(--color-accent);
+  margin-top: var(--spacing-sm);
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.demo-button {
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background: var(--color-accent);
+  border: none;
+  border-radius: 30px;
+  cursor: none;
+  box-shadow: 0 0 20px var(--color-accent-glow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.demo-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px var(--color-accent-glow);
+}

@@ -1,0 +1,69 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background: rgba(10, 10, 10, 0.6);
+  padding: var(--spacing-xl);
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact-header {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.contact-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-xl);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: rgba(123, 97, 255, 0.1);
+  border-color: rgba(123, 97, 255, 0.3);
+  transform: translateX(10px);
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--color-accent);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  margin-right: var(--spacing-md);
+}
+
+.social-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
